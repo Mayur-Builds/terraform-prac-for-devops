@@ -1,0 +1,29 @@
+
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Local CLI configuration
+.terraformrc
+terraform.rc
+
+# Private keys
+*.pem
+*.key
+terra-key
+terra-key.pub
